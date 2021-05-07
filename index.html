@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hang Cirno!</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<audio controls loop id="songplayer" src="audio/ez2.mp3" autoplay></audio>
+
+<body class="noSelect">
+	<div class="container">
+		
+		<!-- starting page starts the game -->
+
+		<div id="startingpage">
+			<h2>Hi I'm Cirno! I'm the strongkest, smaretest and bestest Touhou! Click me to play my game ⑨!</h2>
+			<div class="startgame"><img id="touhou" src="images/cirno.gif"></div>
+		</div>
+
+		<!-- game page -->
+
+		<div id="gamepagenormal">
+			<h2 id="whois">Who is Strongest Touhou??!</h2>
+			
+			<div id="buttoncirno">
+				<div id="buttons"></div>
+			</div>
+			
+			<div class="container">
+				<div class="row">
+					<div id="hiddenword">
+						<div id="underline1">
+			                <div class="letterstyle" id="letter1"></div>
+			            </div>
+			            <div id="underline2">
+			                <div class="letterstyle" id="letter2"></div>
+			            </div>
+			            <div id="underline3">
+			                <div class="letterstyle" id="letter3"></div>
+			            </div>
+			            <div id="underline4">
+			                <div class="letterstyle" id="letter4"></div>
+			            </div>
+			            <div id="underline5">
+			                <div class="letterstyle" id="letter5"></div>
+			            </div>
+			            <div id="underline6">
+			                <div class="letterstyle" id="letter6"></div>
+			            </div>
+			            <div id="underline7">
+			                <div class="letterstyle" id="letter7"></div>
+			            </div>
+			            <div id="underline8">
+			                <div class="letterstyle" id="letter8"></div>
+			            </div>
+			            <div id="underline9">
+			                <div class="letterstyle" id="letter9"></div>
+			            </div>
+			            <div id="underline10">
+			                <div class="letterstyle" id="letter10"></div>
+			            </div>
+						<div id="underline11">
+			                <div class="letterstyle" id="letter11"></div>
+			            </div>
+			            <div id="underline12">
+			                <div class="letterstyle" id="letter12"></div>
+			            </div>
+			            <div id="underline13">
+			                <div class="letterstyle" id="letter13"></div>
+			            </div>
+			            <div id="underline14">
+			                <div class="letterstyle" id="letter14"></div>
+			            </div>
+			            <div id="underline15">
+			                <div class="letterstyle" id="letter15"></div>
+			            </div>
+			            <div id="underline16">
+			                <div class="letterstyle" id="letter16"></div>
+			            </div>
+			            <div id="underline17">
+			                <div class="letterstyle" id="letter17"></div>
+			            </div>
+			            <div id="underline18">
+			                <div class="letterstyle" id="letter18"></div>
+			            </div>
+			            <div id="underline19">
+			                <div class="letterstyle" id="letter19"></div>
+			            </div>
+			            <div id="underline20">
+			                <div class="letterstyle" id="letter20"></div>
+			            </div>
+			        </div>
+				</div>
+
+				<div class="row">
+		        	<div id="lives"></div>
+				</div>				
+
+				<div class="row">
+		        	<div id="wrongguesses"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class="container" id="victory">
+		<h2 id="victorymessagehtml"></h2>
+		
+		<div class="container">
+			<div class="row">
+				<img id="victoryimage" src="images/victorycirno.gif">
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="container" id="gameover">
+		<h2 id="gameovermessagehtml"></h2>
+		
+		<div class="container">
+			<div class="row">
+				<img src="images/gameovercirno.gif">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row" id="button-container">
+			<div class="col-md-2 col-sm-2 col-xs-3">
+				<button id="restart"><strong>EZ Mode</strong></button>
+			</div>
+			<div class="col-md-2 col-sm-2 col-xs-3">
+				<button id="animate" class="a"><strong>⑨</strong></button>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
